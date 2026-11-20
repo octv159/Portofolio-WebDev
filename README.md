@@ -1,12 +1,11 @@
 # Bayucaraka ITS — UAV Research Team Profile Landing Page
 
-Landing page profil resmi **Bayucaraka ITS** (Tim Riset Pesawat Tanpa Awak / UAV UKM Robotika Institut Teknologi Sepuluh Nopember) yang dibangun menggunakan **HTML5 semantik** dan **CSS3 murni** tanpa framework maupun JavaScript. Proyek ini disusun untuk memenuhi *Special Task* Open Recruitment Staff Web Development Bayucaraka ITS 2027.
+Landing page profil resmi **Bayucaraka ITS** (Tim Riset Pesawat Tanpa Awak/UAV UKM Robotika ITS). Proyek ini disusun untuk memenuhi *Special Task* Open Recruitment Staff Web Development Bayucaraka ITS 2027.
 
 ## Identitas Pembuat
-- **Nama:** Octa [Nama Lengkap]
-- **NRP:** [NRP Kamu]
+- **Nama:** Dinisa Octavia
+- **NRP:** 5005261064
 - **Departemen:** Biologi — Institut Teknologi Sepuluh Nopember (ITS)
-- **Divisi Tujuan:** Web Development (Pilihan 1) / Administration (Pilihan 2)
 
 ## Fitur & Struktur Halaman
 1. **Navbar & Live Telemetry Ticker:** Menampilkan logo institusi (ITS, UKM Robotika, Bayucaraka), menu navigasi *sticky*, serta pita teks bergerak otomatis mengenai pencapaian terbaru tim.
