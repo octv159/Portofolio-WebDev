@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bayucaraka ITS — Profil Tim Riset Pesawat Tanpa Awak (UAV)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. NAVBAR -->
+  <header>
+    <nav class="navbar">
+            <div class="brand">
+        <div class="brand-logo-box">
+          <img src="logo-gabungan.png" alt="Logo ITS, UKM Robotika, dan Bayucaraka">
+        </div>
+
+        <div class="brand-text">
+          <span class="brand-title">BAYUCARAKA <span>ITS</span></span>
+          <span class="brand-sub">TIM RISET UAV // BERDIRI PADA TAHUN 2014</span>
+        </div>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#about">Tentang Kami</a></li>
+        <li><a href="#divisions">Divisi</a></li>
+        <li><a href="#achievements">Prestasi</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <!-- Pita Status Berjalan (Pure CSS Ticker) -->
+    <div class="hud-ticker">
+      <div class="ticker-track">
+        <span>★ JUARA UMUM (GRAND CHAMPION) KONTES ROBOT TERBANG INDONESIA (KRTI) 2026</span>
+        <span>✈ The Only One Team from Indonesia on Fighter Division TEKNOFEST TÜBİTAK 2026</span>
+        <span>🏆 JUARA 3 HIGH SPEED DRONE FLOCK SAFMC SINGAPURA 2026</span>
+        <span> UKM ROBOTIKA INSTITUT TEKNOLOGI SEPULUH NOPEMBER, SURABAYA</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <div class="hud-tag">[#GARUDAKUJAYASELALU]</div>
+          <h1>Inovasi <span>Teknologi Dirgantara</span></h1>
+          <p>
+            Salah satu tim robotika unggulan dari UKM Robotika Institut Teknologi Sepuluh Nopember (ITS) Surabaya di bidang Pengembangan Pesawat Tanpa Awak (Unmanned Aerial Vehicle / UAV) sejak tahun 2014.
+          </p>
+          <div class="hero-actions">
+            <a href="#divisions" class="btn-primary">Jelajahi 6 Divisi ↓</a>
+            <a href="#achievements" class="btn-gold">Daftar Prestasi 🏆</a>
+          </div>
+        </div>
+
+        <!-- Panel Radar Telemetri HUD -->
+        <div class="hero-hud-panel">
+          <div class="hud-header">
+            <span>TELEMETRI PENERBANGAN // BAYUCARAKA-ITS</span>
+            <span class="status-dot">● AKTIF</span>
+          </div>
+          <div class="radar-box">
+            <div class="radar-ring ring-1"></div>
+            <div class="radar-ring ring-2"></div>
+            <div class="radar-crosshair-x"></div>
+            <div class="radar-crosshair-y"></div>
+            <div class="radar-sweep"></div>
+            <div class="uav-icon">✈</div>
+          </div>
+          <div class="hud-metrics">
+            <div class="metric">
+              <span class="metric-label">BERDIRI</span>
+              <span class="metric-val">2014</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">DIVISI</span>
+              <span class="metric-val">06 UNIT</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">LOKASI</span>
+              <span class="metric-val">SURABAYA, ID</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3A. TENTANG KAMI & FILOSOFI -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="hud-subtitle">// 01. IDENTITAS &amp; FILOSOFI</span>
+          <h2>Tentang Bayucaraka ITS</h2>
+          <p class="about-lead">
+            Bayucaraka ITS merupakan salah satu tim robotika terbaik dari UKM Robotika Institut Teknologi Sepuluh Nopember di Surabaya, Indonesia. Berdiri sejak tahun 2014, tim ini berfokus pada perancangan, pengembangan, dan inovasi Pesawat Tanpa Awak (UAV) atau drone.
+          </p>
+        </div>
+
+        <div class="philosophy-grid">
+          <div class="philo-card">
+            <span class="sanskrit-tag">AKAR KATA SANSKERTA 01</span>
+            <h3>&ldquo;Vāyu&rdquo; — Udara</h3>
+            <p>Melambangkan langit, angin, dan penguasaan aerodinamika, ruang tanpa batas tempat wahana terbang kami bermanuver dengan presisi.</p>
+          </div>
+
+          <div class="philo-plus">+</div>
+
+          <div class="philo-card">
+            <span class="sanskrit-tag">AKAR KATA SANSKERTA 02</span>
+            <h3>&ldquo;Caraka&rdquo; — Pengembara</h3>
+            <p>Bermakna penjelajah dan pembawa pesan, mencerminkan misi tim untuk terus mengeksplorasi berbagai kemungkinan baru dalam teknologi dirgantara.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3B. ENAM DIVISI UTAMA -->
+    <section id="divisions" class="section divisions-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="hud-subtitle">// 02. UNIT SPESIALISASI</span>
+          <h2>Enam Divisi Utama</h2>
+        </div>
+
+        <div class="division-grid">
+          <!-- Divisi 1 -->
+          <article class="hud-card">
+            <div class="card-code">[DIV-01]</div>
+            <h3>Racing Plane</h3>
+            <p>
+              Berfokus mengembangkan UAV berkecepatan tinggi dan super lincah yang mampu melakukan manuver akrobatik ekstrem dengan presisi tinggi—unggul dalam kecepatan, stabilitas saat tikungan tajam, dan navigasi dinamis di lintasan kompetisi.
+            </p>
+          </article>
+
+          <!-- Divisi 2 -->
+          <article class="hud-card">
+            <div class="card-code">[DIV-02]</div>
+            <h3>Fixed Wing</h3>
+            <p>
+              Mengkhususkan diri pada pesawat bersayap tetap untuk penerbangan jarak jauh dan ketahanan tinggi—dirancang untuk pemetaan udara, pemantauan area luas, pengawasan, serta misi pengiriman dengan desain aerodinamis, baling-baling efisien, dan sistem autopilot.
+            </p>
+          </article>
+
+          <!-- Divisi 3 -->
+          <article class="hud-card">
+            <div class="card-code">[DIV-03]</div>
+            <h3>LELA (Long Endurance Low Altitude)</h3>
+            <p>
+              Dirancang khusus untuk penerbangan durasi panjang di ketinggian rendah dengan konsumsi energi minimal—menjalankan misi pemantauan lingkungan, pertanian presisi, patroli sungai, dan penjatuhan muatan melalui optimasi propulsi serta ketahanan cuaca.
+            </p>
+          </article>
+
+          <!-- Divisi 4 -->
+          <article class="hud-card">
+            <div class="card-code">[DIV-04]</div>
+            <h3>VTOL (Vertical Take Off &amp; Landing)</h3>
+            <p>
+              Menghasilkan UAV fleksibel yang mampu beroperasi di area terbatas tanpa landasan pacu—ideal untuk misi penyelamatan dan inspeksi infrastruktur dengan transisi mulus dari mode melayang (hover) ke jelajah (cruise), stabilitas tinggi, serta penanganan muatan.
+            </p>
+          </article>
+
+          <!-- Divisi 5 -->
+          <article class="hud-card">
+            <div class="card-code">[DIV-05]</div>
+            <h3>Technology Development</h3>
+            <p>
+              Divisi R&amp;D inti yang menggerakkan inovasi teknologi UAV secara menyeluruh—mengembangkan penerbangan otonom berbasis AI, computer vision untuk deteksi objek, mekanisme penjatuhan/penyelamatan khusus, serta pembaruan perangkat lunak dan keras untuk seluruh divisi.
+            </p>
+          </article>
+
+          <!-- Divisi 6 -->
+          <article class="hud-card card-official">
+            <div class="card-code">[DIV-06]</div>
+            <h3>Official Division</h3>
+            <p>
+              Mengelola dan mendukung seluruh aktivitas organisasi serta operasional tim, mencakup administration, sponsorship and public relations, media communications, and website development, guna menjaga citra publik serta kehadiran digital tim.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3C. PRESTASI KAMI (TAB INTERAKTIF PURE CSS) -->
+    <section id="achievements" class="section achievements-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="hud-subtitle">// 03. REKAM JEJAK &amp; PENGHARGAAN</span>
+          <h2>Prestasi Kami</h2>
+          <p class="about-lead">Pilih kategori kompetisi di bawah ini untuk melihat pencapaian nasional dan internasional Bayucaraka ITS.</p>
+        </div>
+
+        <!-- Saklar Radio Pure CSS untuk Ganti Tab Prestasi -->
+        <input type="radio" name="comp-tab" id="tab-krti" class="tab-radio" checked>
+        <input type="radio" name="comp-tab" id="tab-safmc" class="tab-radio">
+        <input type="radio" name="comp-tab" id="tab-teknofest" class="tab-radio">
+
+        <div class="tab-controls">
+          <label for="tab-krti" class="tab-btn">🇮🇩 KRTI (Nasional)</label>
+          <label for="tab-safmc" class="tab-btn">🇸🇬 SAFMC (Singapura)</label>
+          <label for="tab-teknofest" class="tab-btn">🇹🇷 TEKNOFEST TÜBİTAK</label>
+        </div>
+
+        <div class="tab-panels">
+          <!-- Panel 1: KRTI -->
+          <div class="tab-panel panel-krti">
+            <div class="panel-header">
+              <h3>Kontes Robot Terbang Indonesia (KRTI)</h3>
+              <span class="champion-pill">★ JUARA UMUM 2026</span>
+            </div>
+            <div class="award-grid">
+              <div class="award-item highlight-gold">
+                <span class="award-year">2026</span>
+                <p><strong>Juara Umum (Grand Champion)</strong> Kontes Robot Terbang Indonesia</p>
+              </div>
+              <div class="award-item highlight-gold">
+                <span class="award-year">2026</span>
+                <p><strong>Juara 1</strong> Divisi KRTI LELA</p>
+              </div>
+              <div class="award-item highlight-gold">
+                <span class="award-year">2026</span>
+                <p><strong>Juara 1</strong> Divisi KRTI Fixed Wing</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2026</span>
+                <p><strong>Juara 4</strong> Divisi KRTI Technology Development</p>
+              </div>
+              <div class="award-item highlight-gold">
+                <span class="award-year">2025</span>
+                <p><strong>Juara 1</strong> Divisi KRTI Racing Plane</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2025</span>
+                <p><strong>Juara 2</strong> Divisi KRTI Vertical Take-off Landing (VTOL)</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2025</span>
+                <p><strong>Juara 2</strong> Divisi KRTI Technology Development</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2025</span>
+                <p><strong>Juara 3</strong> Divisi KRTI Fixed Wing</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2025</span>
+                <p><strong>Juara 3</strong> Divisi KRTI Long Endurance Low Altitude (LELA)</p>
+              </div>
+              <div class="award-item highlight-gold">
+                <span class="award-year">2024</span>
+                <p><strong>Juara 1</strong> Divisi KRTI Vertical Take-off Landing (VTOL)</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2024</span>
+                <p><strong>Juara 3</strong> Divisi KRTI Racing Plane</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2024</span>
+                <p><strong>Juara 4</strong> Divisi KRTI Long Endurance Low Altitude (LELA)</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2024</span>
+                <p><strong>Best Design</strong> Divisi KRTI Vertical Take-off Landing (VTOL)</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2024</span>
+                <p><strong>Excellent Methodology</strong> Divisi KRTI Technology Development</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 2: SAFMC -->
+          <div class="tab-panel panel-safmc">
+            <div class="panel-header">
+              <h3>SAFMC (Singapore Amazing Flying Machine Competition)</h3>
+              <span class="champion-pill">PODIUM INTERNASIONAL</span>
+            </div>
+            <div class="award-grid">
+              <div class="award-item highlight-gold">
+                <span class="award-year">2026</span>
+                <p><strong>Juara 3</strong> Kategori High Speed Drone Flock</p>
+              </div>
+              <div class="award-item highlight-gold">
+                <span class="award-year">2025</span>
+                <p><strong>Juara 3</strong> Kategori D2: Multi-Machine</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 3: TEKNOFEST -->
+          <div class="tab-panel panel-teknofest">
+            <div class="panel-header">
+              <h3>TEKNOFEST TÜBİTAK (Türkiye Teknoloji Takımı)</h3>
+              <span class="champion-pill">ARENA DIRGANTARA GLOBAL</span>
+            </div>
+            <div class="award-grid">
+              <div class="award-item highlight-gold">
+                <span class="award-year">2026</span>
+                <p><strong>Satu-satunya Tim dari Indonesia</strong> di Divisi Fighter</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2026</span>
+                <p><strong>Peringkat 9 dari 42 Tim</strong> pada Tahun Pertama di Divisi Fighter</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2025</span>
+                <p><strong>Juara 3</strong> Divisi Fixed Wing</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2022</span>
+                <p><strong>Juara 2</strong> Kategori Fixed Wing</p>
+              </div>
+              <div class="award-item">
+                <span class="award-year">2022</span>
+                <p><strong>Juara 2</strong> Originality Fixed Wing Plane</p>
+              </div>
+              <div class="award-item highlight-gold">
+                <span class="award-year">2019</span>
+                <p><strong>Juara 1</strong> Divisi Fixed Wing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BANNER CALL TO ACTION -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-box">
+          <div>
+            <span class="hud-tag">[COLLABORATION]</span>
+            <h2>Siap Menjelajahi Langit Bersama Bayucaraka ITS?</h2>
+            <p>Bergabunglah dalam misi kami memajukan robotika udara otonom, rekayasa aerodinamika, dan inovasi digital.</p>
+          </div>
+          <a href="#contact" class="btn-gold">Hubungi Kami →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 4. FOOTER -->
+  <footer id="contact">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>BAYUCARAKA <span>ITS</span></h3>
+        <p>UKM Robotika Institut Teknologi Sepuluh Nopember, Surabaya, Jawa Timur, Indonesia.</p>
+        <p class="credit-note">Landing Page Profil by Dinisa Octavia for Special Task Webdev Bayucaraka 2027</p>
+      </div>
+
+      <div class="social-links">
+        <a href="https://instagram.com/bayucaraka.its" target="_blank">Instagram: @bayucaraka.its</a>
+        <a href="https://bayucaraka-its.com" target="_blank">Website: bayucaraka-its.com</a>
+        <a href="#">LinkedIn: Bayucaraka ITS UAV Research Team</a>
+        <a href="#">YouTube: Bayucaraka ITS UAV Research Team</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
